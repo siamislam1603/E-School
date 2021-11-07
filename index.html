@@ -10,11 +10,68 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css" />
     <link rel="shortcut icon" type="image/png" href="images/ICON/Logo.png" />
     <title>E-School</title>
   </head>
   <body>
+    <header class="header-bg mb-5">
+      <div class="container header-bg">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img
+                src="images/ICON/Logo.png"
+                alt=""
+                width="200"
+                height="auto"
+                class="d-inline-block"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNavAltMarkup"
+            >
+              <div class="navbar-nav">
+                <a class="nav-link" aria-current="page" href="#">Books</a>
+                <a class="nav-link" href="#courses">Courses</a>
+                <a class="nav-link" href="#others">Others</a>
+                <a class="nav-link" href="#blog">Blog</a>
+                <button class="rounded-pill btn btn-success">Sign In</button>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="row mt-4 pb-5 d-flex align-items-center">
+            <div class="col-md-6 header-description">
+                <h6 class="text-orange">Are you ready to Learn?</h6>
+                <h1>Learn With fun</h1>
+                <h1>on <span class="text-success">any schedule</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, dicta!</p>
+                <button class="btn btn-success rounded-pill">Get Started</button>
+            </div>
+            <div class="col-md-6">
+                <img src="images/photos/Illustration.png" class="img-fluid" alt="">
+            </div>
+        </div>
+      </div>
+    </header>
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
       integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
