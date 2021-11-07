@@ -14,3 +14,25 @@ body{
 .text-orange{
     color: #FD511A;
 }
+.books-bg{
+    background-color: #F8FFFB;
+    border-radius: 15px;
+    padding: 30px 0px;
+}
+.books-bg>h6{
+    margin-top: 20px;
+    color: #413960;
+}
+.books-bg:hover{
+    background-color: white;
+    box-shadow: 3px 6px 7px rgb(192, 192, 192);
+}
+.books-bg>h6,.books-bg>div{
+    text-align: center;
+}
+.books-img{
+    width: 66px;
+    height: 85px;
+    display: inherit;
+    margin: 0 auto;
+}
