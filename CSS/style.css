@@ -19,15 +19,18 @@ body{
     border-radius: 15px;
     padding: 30px 0px;
 }
+.text-blue,.books-bg>h6{
+    color: #413960;
+    text-align: center;
+}
 .books-bg>h6{
     margin-top: 20px;
-    color: #413960;
 }
 .books-bg:hover{
     background-color: white;
     box-shadow: 3px 6px 7px rgb(192, 192, 192);
 }
-.books-bg>h6,.books-bg>div{
+.books-bg>div{
     text-align: center;
 }
 .books-img{
@@ -35,4 +38,9 @@ body{
     height: 85px;
     display: inherit;
     margin: 0 auto;
+}
+.card{
+    border: none;
+    border-radius: 15px;
+    box-shadow: 3px 6px 7px rgb(192, 192, 192);
 }
